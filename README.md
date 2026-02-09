@@ -47,3 +47,14 @@ If you want to avoid paid APIs, here are options that can work for personal use,
    - **Cons:** Not fully automated; depends on free tier limits.
 
 If you want, we can add a local transcription option (Whisper) or a hybrid flow that keeps everything on your Mac.
+
+## Desktop-like app option (Chrome “installed app”)
+
+If you want this to feel like a desktop app (dock icon, standalone window, no browser tabs), you can install it as a **Chrome app** (PWA-style):
+
+1. Start the app: `npm run dev`
+2. Open it in Chrome at `http://localhost:5173`
+3. Click the **Install** icon in the Chrome address bar (or go to **Chrome menu → Save and share → Install app**)
+4. Launch it from your Dock/Applications like a regular app
+
+**Note:** This still runs locally in Chrome, but it looks and behaves like a native desktop app window.
