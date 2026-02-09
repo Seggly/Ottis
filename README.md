@@ -26,3 +26,24 @@ View your app in AI Studio: https://ai.studio/apps/drive/1PRnxknTFsxlKI-5o7rxs-S
 4. Ensure the Google Calendar API is enabled for your project.
 5. Run the app:
    `npm run dev`
+
+## Free (or no-recurring-cost) alternatives
+
+If you want to avoid paid APIs, here are options that can work for personal use, with trade-offs:
+
+1. **Local transcription with OpenAI Whisper (free, runs on your machine).**
+   - You can record audio the same way but run transcription locally using the open-source Whisper model.
+   - **Pros:** No API costs, works offline.
+   - **Cons:** Needs CPU/GPU time and setup; long meetings can be slow on laptops.
+
+2. **Google Meet built-in captions/transcripts (depending on your Google plan).**
+   - Some Google Workspace plans include meeting transcripts; if you already have access, it can be free to you.
+   - **Pros:** No extra setup for recording/transcription.
+   - **Cons:** Not available on all plans; less control over formatting/summary.
+
+3. **Manual notes + AI summaries from free tiers.**
+   - You can paste a manual note outline into free-tier chat tools for a recap.
+   - **Pros:** No audio processing needed.
+   - **Cons:** Not fully automated; depends on free tier limits.
+
+If you want, we can add a local transcription option (Whisper) or a hybrid flow that keeps everything on your Mac.
