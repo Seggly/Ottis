@@ -27,6 +27,24 @@ View your app in AI Studio: https://ai.studio/apps/drive/1PRnxknTFsxlKI-5o7rxs-S
 5. Run the app:
    `npm run dev`
 
+### Troubleshooting: “Could not read package.json (ENOENT)”
+
+That error means you ran `npm` from the wrong folder. You must be inside the project directory (the one that contains `package.json`).
+
+If your project folder is in **Downloads** and named **scribe.ai**, run:
+
+```bash
+cd ~/Downloads/scribe.ai
+ls
+```
+
+You should see `package.json` listed. Then run:
+
+```bash
+npm install
+npm run dev
+```
+
 ## Free (or no-recurring-cost) alternatives
 
 If you want to avoid paid APIs, here are options that can work for personal use, with trade-offs:
