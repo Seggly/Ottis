@@ -1,0 +1,7 @@
+{
+  "name": "Scribe.ai",
+  "description": "A personal meeting assistant that records, transcribes, and summarizes your Google Meet sessions directly from your browser.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
